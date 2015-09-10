@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "bscBot";
+    var fork = "Vibe Bot";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -52,8 +52,8 @@
       scriptLink: "https://rawgit.com/bscBot/source/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
-      startupVolume: 0, // 0-100
-      startupEmoji: false, // true or false
+      startupVolume: 100, // 0-100
+      startupEmoji: true, // true or false
       autowoot: true,
       autoskip: false,
       smartSkip: true,
